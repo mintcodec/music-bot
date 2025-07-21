@@ -14,22 +14,18 @@ A Discord music bot with modern slash commands, YouTube search, and voice playba
 ### Prerequisites
 
 - Python 3.8+
-- A Discord bot token ([How to create a bot](https://discord.com/developers/applications))
 - FFmpeg installed and added to your PATH ([Download FFmpeg](https://ffmpeg.org/download.html))
+- A Discord bot token ([How to create a bot](https://discord.com/developers/applications))
 
 ### Installation
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/mintcodec/music-bot.git
+   cd music-bot
    ```
 
 2. **Install dependencies:**
-   ```
-   pip install -r requirements.txt
-   ```
-   If you don’t have a `requirements.txt`, use:
    ```
    pip install discord.py yt-dlp python-dotenv pynacl
    ```
@@ -63,4 +59,4 @@ Use these slash commands in Discord:
 
 ---
 
-Enjoy your music bot! 🎶
+Enjoy your
